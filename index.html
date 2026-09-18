@@ -4,12 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cesara</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@500&display=swap">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #faf7f2;
+      color: #1a1a1a;
+      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      letter-spacing: -0.02em;
+    }
+
+    .tagline {
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      margin-top: 0.75rem;
+      text-decoration: none;
+      color: #0077cc;
+      transition: color 0.15s ease;
+    }
+
+    .contact:hover {
+      color: #005fa3;
+    }
+  </style>
 </head>
 <body>
   <main class="hero">
-    <h1>Cesara</h1>
-    <p class="tagline">Something new is on the way.</p>
+    <img src="cesara-transparent.png" class="logo" />
+    <p class="tagline">Agentic transaction intelligence for health systems</p>
+    <a class="contact" href="mailto:team@cesara.com">team@cesara.com</a>
   </main>
 </body>
 </html>
